@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #dfdfdf;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  width: 16%;
+  height: auto;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  background-color: #131313;
+  z-index: 1000;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-evenly;
+  font-size: 24px;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.links a {
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.links a:hover {
+  color: #7c7c7c;
+  transform: scale(1.1);
+}
+
+.image {
+  width: 50%;
+}
+
+.main {
+  padding-top: 10vh;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+body {
+  font-family: "Century Gothic", sans-serif;
+  box-sizing: border-box;
+}
+
+section {
+  min-height: 100vh;
+  box-sizing: border-box;
+  scroll-margin-top: 10vh;
+}
+
+.home {
+  background-image: url("../assets/57KonzertBild.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.motivation {
+  font-size: 65px;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px 8px #131313;
+  transform: translateY(-125%);
+}
+
+.studio {
+  background-color: #6c6c6c;
+  padding: 2rem;
+}
+
+.studio h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Century Gothic", sans-serif;
+  margin-top: 2rem;
+}
+
+.studio-content {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  padding: 0 5rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.studio-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.studio-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.studio-equipment {
+  flex: 1;
+  padding-left: 2rem;
+  margin-left: 12rem;
+}
+
+.studio-equipment h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.studio-equipment ol,
+.studio-equipment ul {
+  list-style: none;
+  padding: 0;
+}
+
+.studio-equipment li {
+  font-size: 1.3rem;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+.artists {
+  background-color: #4c4c4c;
+  padding: 2rem;
+  text-align: center;
+}
+
+.artists h1 {
+  font-size: 3rem;
+  font-family: "Century Gothic", sans-serif;
+  margin-top: 2rem;
+}
+
+.artist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.artist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.artist-image {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.artist a,
+.artist span {
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin-left: 1rem;
+  text-align: right;
+}
+
+.artist a {
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.artist a:hover {
+  color: #7c7c7c;
+  transform: scale(1.1);
+}
+
+.about-us {
+  background-color: #6c6c6c;
+  padding: 3rem 5rem;
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 3rem;
+  font-family: "Century Gothic", sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-us h2 {
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.social-media-links a {
+  font-size: 1.2rem;
+  color: #dfdfdf;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+  margin-bottom: 4.5rem;
+}
+
+.social-media-links a:hover {
+  color: #333;
+}
+
+.social-media-links a:hover i {
+  color: #333;
+}
+
+.social-media-links i {
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-media-links i {
+  font-size: 1.5rem;
+}
+
+.contact {
+  background-color: #4c4c4c;
+  padding: 3rem 5vw;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 3rem;
+  font-family: "Century Gothic", sans-serif;
+  margin-top: 1rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.contact-form label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  border: 2px solid #7c7c7c;
+  border-radius: 5px;
+  background-color: #333;
+  font-family: "Century Gothic", sans-serif;
+  outline: none;
+  resize: none;
+}
+
+.contact-form button {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #131313;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Century Gothic", sans-serif;
+  margin-top: 2.5rem;
+  width: 80%;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form button:hover {
+  background-color: #2c2c2c;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  background-color: #131313;
+}
+
+.footer-address,
+.footer-mail {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.footer-address {
+  margin-top: 1.5rem;
+}
+
+.footer-mail {
+  margin-top: 0.5rem;
+}
+
+.footer-address i,
+.footer-mail i {
+  font-size: 1.5rem;
+}
+
+.footer-address a {
+  text-decoration: none;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}

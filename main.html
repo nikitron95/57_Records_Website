@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="script.js" defer></script>
+
+    <title>57 Records</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav">
+            <div class="image">
+                <a href="#home">
+                    <img class="logo" src="assets/57Record.png" alt="57Records_Logo_V2">
+                </a>
+            </div>
+            <div class="links">
+                <a href="#studio">Studio</a>
+                <a href="#artists">Artists</a>
+                <a href="#about">About us</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="home" class="home">
+            <p class="motivation">Dein Weg zur erfolgreichen Rap-Karriere</p>
+        </section>
+
+        <section id="studio" class="studio">
+            <h1>Studio</h1>
+            <div class="studio-content">
+                <div class="studio-images">
+                    <img src="assets/studiobild.JPG" alt="Studio Image 1">
+                    <img src="assets/boxbild.JPG" alt="Studio Image 2">
+                </div>
+                <div class="studio-equipment">
+                    <h2>Equipment</h2>
+                    <ol>
+                        <li>Wiedergabegeräte:
+                            <ul>
+                                <li>Monitoring Lautsprecher: M-Audio BX-3</li>
+                                <li>Monitoring Kopfhörer: Behringer HPM 1100</li>
+                            </ul>
+                        </li>
+                        <li>Computer und Software:
+                            <ul>
+                                <li>All in One: 2013 iMac 27“</li>
+                                <li>DAW: FL Studio</li>
+                                <li>Bildbearbeitung: Adobe Photoshop 2024</li>
+                                <li>Videobearbeitung: Adobe Premiere Pro 2024</li>
+                            </ul>
+                        </li>
+                        <li>Eingabegeräte:
+                            <ul>
+                                <li>Mikrofon: PreSonus M7</li>
+                                <li>Audio Interface: FocusRite Scarlett Solo 3rd gen</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="artists" class="artists">
+            <h1>Artists</h1>
+            <div class="artist-container">
+                <div class="artist">
+                    <img src="assets/user.png" alt="Plavi Image" class="artist-image">
+                    <a href="https://open.spotify.com/intl-de/artist/7tLjVcAA1CXepKAqWSJDZZ?si=2-K__8seQvy_w2JkTFg4lw"
+                        target="_blank">Spotify Link - Plavi</a>
+                </div>
+                <div class="artist">
+                    <img src="assets/user.png" alt="LUCK Y Image" class="artist-image">
+                    <a href="https://open.spotify.com/intl-de/artist/1PhMGGj0r70OafpZVa2VxI?si=050x-Qa7ShCARLqZCCGoxg"
+                        target="_blank">Spotify Link - LUCK Y</a>
+                </div>
+                <div class="artist">
+                    <img src="assets/user.png" alt="Michael Image" class="artist-image">
+                    <span>Spotify Link - Michael (coming soon)</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-us">
+            <h1>About us</h1>
+            <p class="about-text">Geschichte: <br>
+                Wir haben uns im Frühling 2024 dazu entschieden, unsere Leidenschaft für Musik in einem Label umzusetzen
+                und neuen Künstlern die Möglichkeit zu geben, richtig durchzustarten in ihrer Karriere. Eingezogen in
+                Nussbaumen im August 2024 haben wir unser Studio aufgebaut und sind bereit zum Produzieren.<br><br>
+                Unser Netzwerk besteht aus Unternehmern, Produzenten, Künstlern sowie Fans. Gemeinsam erschaffen wir
+                Musik, die exklusiv von uns abgesegnet wird und einzigartig ist.
+            </p>
+
+            <h2>Unser Social Media</h2>
+            <div class="social-media-links">
+                <a href="https://www.instagram.com/57records.ch/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+                <a href="https://www.youtube.com/@57Records_ch" target="_blank">
+                    <i class="fa-brands fa-youtube"></i> YouTube
+                </a>
+                <a href="https://www.tiktok.com/@57records" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i> TikTok
+                </a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h1>Contact</h1>
+            <form class="contact-form">
+                <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Betreff wählen</option>
+                    <option value="general">Allgemeine Anfrage</option>
+                    <option value="rap-career">Rap-Karriere als Rapper</option>
+                    <option value="service-request">Anfrage Dienstleistung</option>
+                    <option value="collaboration">Zusammenarbeit / Sponsoring</option>
+                </select>
+
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <textarea id="message" name="message" rows="5" placeholder="Nachricht" required></textarea>
+
+                <button type="submit">Senden</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-address">
+            <i class="fa-solid fa-location-dot"></i>
+            <a href="https://maps.app.goo.gl/jyw2ES34iJhHdiyi8" target="_blank">
+                <p>Landstrasse 89 5415 Obersiggenthal</p>
+            </a>
+        </div>
+
+        <div class="footer-mail">
+            <i class="fa-regular fa-envelope"></i>
+            <p>connect@57records.ch</p>
+        </div>
+
+        <p class="footer-text">© 57 Records</p>
+    </footer>
+</body>
+
+</html>
